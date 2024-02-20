@@ -1,0 +1,12 @@
+Source: ros-rolling-boost-geometry-util
+Section: misc
+Priority: optional
+Maintainer: masaya <ms.kataoka@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-rolling-ament-cmake, ros-rolling-ament-cmake-auto, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-geometry-msgs, ros-rolling-ouxt-common <!nocheck>, ros-rolling-rclcpp, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-boost-geometry-util
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-rolling-geometry-msgs, ros-rolling-rclcpp, ros-rolling-ros-workspace
+Description: Utility library for boost geometry
